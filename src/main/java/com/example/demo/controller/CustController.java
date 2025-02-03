@@ -29,7 +29,6 @@ import com.example.demo.service.CustService;
 		public String addNewCustomer(@RequestBody List<Customer> custList){
 			
 			
-			Object custList1;
 			custService.saveAllCustomers(custList);
 			
 			return "successfully added all records----->";

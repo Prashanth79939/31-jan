@@ -10,6 +10,13 @@ String custId;
 String name;
 String address;
 String mobile;
+
+
+
+public Customer() {
+	super();
+	// TODO Auto-generated constructor stub
+}
 public Customer(String custId, String name, String address, String mobile) {
 	super();
 	this.custId = custId;
