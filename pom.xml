@@ -8,10 +8,17 @@
 		<version>3.4.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
+<<<<<<< HEAD
 	<groupId>com.example.demo</groupId>
 	<artifactId>Customer</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Customer</name>
+=======
+	<groupId>com.hyd.hotel</groupId>
+	<artifactId>hotel.app</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>hotel.app</name>
+>>>>>>> 53de5536e8a9ebe0f8dff6c137d120b5cd840b1f
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
@@ -45,11 +52,14 @@
 			<scope>runtime</scope>
 		</dependency>
 		<dependency>
+<<<<<<< HEAD
 			<groupId>com.mysql</groupId>
 			<artifactId>mysql-connector-j</artifactId>
 			<scope>runtime</scope>
 		</dependency>
 		<dependency>
+=======
+>>>>>>> 53de5536e8a9ebe0f8dff6c137d120b5cd840b1f
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
